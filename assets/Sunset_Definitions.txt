@@ -1,0 +1,24 @@
+
+
+Definitions
+===========
+
+Civil Twilight
+Civil twilight is defined when the sun is 6 degrees below the horizon. In the morning this is known as dawn, in the evening it is called dusk. This is the limit at which twilight illumination is sufficient, under good weather conditions, for terrestrial objects to be clearly distinguished; at the beginning of morning civil twilight, or end of evening civil twilight, the horizon is clearly defined and the brightest stars are visible under good atmospheric conditions in the absence of moonlight or other illumination. In the morning before the beginning of civil twilight and in the evening after the end of civil twilight, artificial illumination is normally required to carry on ordinary outdoor activities.
+
+
+Nautical Twilight
+Nautical twilight is defined when the sun is 12 degrees below the horizon. At the beginning or end of nautical twilight, under good atmospheric conditions and in the absence of other illumination, general outlines of ground objects may be distinguishable, but detailed outdoor operations are not possible, and the horizon is indistinct.
+
+
+Astronomical Twilight
+Astronomical twilight is defined when the sun is 18 degrees below the horizon. Before the beginning of astronomical twilight in the morning and after the end of astronomical twilight in the evening the sun does not contribute to sky illumination; for a considerable interval after the beginning of morning twilight and before the end of evening twilight, sky illumination is so faint that it is practically imperceptible. 
+
+
+
+Civil Twilight
+    This is defined to be the time period when the sun is no more than 6 degrees below the horizon at either sunrise or sunset. The horizon should be clearly defined and the brightest stars should be visible under good atmospheric conditions (i.e. no moonlight, or other lights). One still should be able to carry on ordinary outdoor activities.
+Nautical Twilight
+    This is defined to be the time period when the sun is between 6 and 12 degrees below the horizon at either sunrise or sunset. The horizon is not defined and the outline of objects might be visible without artificial light. Ordinary outdoor activities are not possible at this time without extra illumination.
+Astronomical Twilight
+    This is defined to be the time period when the sun is between 12 and 18 degrees below the horizon at either sunrise or sunset. The sun does not contribute to the illumination of the sky before this time in the morning, or after this time in the evening. In the beginning of morning astronomical twilight and at the end of astronomical twilight in the evening, sky illumination is very faint, and might be undetectable.

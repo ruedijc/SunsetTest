@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+	<TextView
+	    android:id="@+id/tvETA"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/webView1"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="19dp"
+	    android:text="ETA: "
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+	    android:id="@+id/tvOfficialSunsetTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/tvETA"
+	    android:layout_below="@+id/tvETA"
+	    android:text="Official Sunset: "
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+	    android:id="@+id/tvCivilSunsetTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/tvOfficialSunsetTime"
+	    android:layout_below="@+id/tvOfficialSunsetTime"
+	    android:text="Civil Sunset: "
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+	    android:id="@+id/tvNauticalSunsetTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/tvCivilSunsetTime"
+	    android:layout_below="@+id/tvCivilSunsetTime"
+	    android:text="Nautical Sunset: "
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+	<TextView
+	    android:id="@+id/tvAstroSunsetTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/webView1"
+	    android:layout_below="@+id/tvNauticalSunsetTime"
+	    android:text="Astronomical Sunset: "
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	
+		<TextView
+	    android:id="@+id/tvMetarString"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/tvAstroSunsetTime"
+	    android:layout_below="@+id/tvAstroSunsetTime"
+	    android:text="METAR:"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		
+	<WebView
+	    android:id="@+id/webView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/tvMetarString" />
+		
+</RelativeLayout>
